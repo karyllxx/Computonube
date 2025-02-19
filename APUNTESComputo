@@ -1,3 +1,44 @@
 # Apuntes sobre la materia de seguridad de datos
 
 ## 🔧✨👓 CURSO AWS
+
+# Computación de Alto Desempeño (HPC)
+
+La **Computación de Alto Desempeño** (High-Performance Computing, HPC) se refiere al uso de supercomputadoras y clústeres de computadoras para resolver problemas complejos que requieren gran capacidad de cálculo. Estas tareas incluyen simulaciones científicas, análisis de grandes volúmenes de datos y modelado de fenómenos físicos.
+
+## Componentes Clave de HPC
+
+1. **Supercomputadoras**: Máquinas con miles de procesadores capaces de realizar cálculos en paralelo a velocidades extremadamente altas.
+
+2. **Clústeres de Computadoras**: Conjuntos de computadoras interconectadas que trabajan juntas como una sola unidad para aumentar la capacidad de procesamiento.
+
+3. **Almacenamiento de Alta Velocidad**: Sistemas de almacenamiento capaces de manejar grandes volúmenes de datos con rapidez, esenciales para aplicaciones que generan o procesan datos masivos.
+
+4. **Redes de Baja Latencia**: Conexiones de alta velocidad que permiten la comunicación eficiente entre nodos de computación, minimizando retrasos y mejorando el rendimiento general.
+
+## Aplicaciones de HPC
+
+- **Investigación Científica**: Simulaciones en física, química y biología que requieren modelar sistemas complejos.
+
+- **Análisis de Datos**: Procesamiento de grandes conjuntos de datos en campos como la genómica, meteorología y finanzas.
+
+- **Ingeniería**: Diseño y prueba de prototipos virtuales en industrias como la automotriz y aeroespacial.
+
+## Beneficios de HPC
+
+- **Velocidad**: Reducción significativa en el tiempo necesario para realizar cálculos complejos.
+
+- **Precisión**: Capacidad para manejar modelos más detallados y precisos.
+
+- **Innovación**: Facilita avances en investigación y desarrollo al permitir experimentación y simulación a gran escala.
+
+## Desafíos en HPC
+
+- **Costo**: Inversión significativa en hardware, software y mantenimiento.
+
+- **Complejidad**: Necesidad de personal especializado para gestionar y optimizar los sistemas.
+
+- **Consumo Energético**: Las supercomputadoras pueden consumir grandes cantidades de energía, lo que implica consideraciones ambientales y económicas.
+
+Para obtener más información sobre la computación de alto desempeño, puedes consultar recursos como [Wikipedia](https://es.wikipedia.org/wiki/Supercomputadora) o [HPCwire](https://www.hpcwire.com/).
+
