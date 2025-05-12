@@ -1,1 +1,61 @@
+# **Investigación: Herramientas Open-Source para Cómputo de Alto Desempeño (HPC)**
+
+## **1. Sistemas de Gestión de Recursos**
+### **Slurm**
+- **Descripción:** Administrador de trabajos para clústeres HPC.
+- **Características:** Planificación de tareas, gestión de recursos, soporte para múltiples usuarios.
+- **Uso:** Universidades, centros de investigación y empresas tecnológicas.
+
+### **PBS Pro (Portable Batch System)**
+- **Descripción:** Sistema de gestión de trabajos en clústeres.
+- **Características:** Soporte para múltiples nodos, integración con herramientas de HPC.
+- **Uso:** Simulaciones científicas y análisis de datos.
+
+## **2. Bibliotecas de Computación Paralela**
+### **MPI (Message Passing Interface)**
+- **Descripción:** Estándar para computación distribuida.
+- **Características:** Comunicación eficiente entre procesos en múltiples nodos.
+- **Uso:** Simulaciones físicas, modelado molecular, análisis de datos.
+
+### **OpenMP**
+- **Descripción:** Biblioteca para programación paralela en sistemas multiprocesador.
+- **Características:** Facilita la paralelización de código en C, C++ y Fortran.
+- **Uso:** Aplicaciones científicas y de ingeniería.
+
+## **3. Herramientas de Virtualización y Contenedores**
+### **Singularity**
+- **Descripción:** Plataforma de contenedores optimizada para HPC.
+- **Características:** Seguridad mejorada, compatibilidad con clústeres HPC.
+- **Uso:** Ejecución de aplicaciones en entornos aislados.
+
+### **Docker**
+- **Descripción:** Plataforma de contenedores para despliegue de aplicaciones.
+- **Características:** Portabilidad, escalabilidad, gestión eficiente de dependencias.
+- **Uso:** Desarrollo y pruebas de software en HPC.
+
+## **4. Frameworks de Computación Distribuida**
+### **Apache Spark**
+- **Descripción:** Framework para procesamiento distribuido de datos.
+- **Características:** Alta velocidad, soporte para múltiples lenguajes (Python, Scala, Java).
+- **Uso:** Análisis de grandes volúmenes de datos.
+
+### **Dask**
+- **Descripción:** Biblioteca para computación paralela en Python.
+- **Características:** Escalabilidad, integración con Pandas y NumPy.
+- **Uso:** Análisis de datos y aprendizaje automático.
+
+## **5. Herramientas de Monitoreo y Optimización**
+### **Ganglia**
+- **Descripción:** Sistema de monitoreo para clústeres HPC.
+- **Características:** Visualización en tiempo real, métricas detalladas.
+- **Uso:** Administración de recursos en supercomputadoras.
+
+### **Prometheus**
+- **Descripción:** Plataforma de monitoreo y alertas.
+- **Características:** Recolección de métricas, integración con Grafana.
+- **Uso:** Supervisión de rendimiento en sistemas HPC.
+
+## **Conclusión**
+Las herramientas **open-source** para HPC permiten optimizar el rendimiento de sistemas de cómputo distribuido y paralelo. Su adopción facilita la investigación científica, el análisis de datos y el desarrollo de aplicaciones avanzadas.
+
 
