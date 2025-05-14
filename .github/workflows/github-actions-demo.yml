@@ -23,7 +23,8 @@ jobs:
           pip install pandas matplotlib seaborn
 
       - name: Run Python script
-        run: python script.py
+        run: python python.py  
+
 
       - name: Commit and push generated graph
         run: |
