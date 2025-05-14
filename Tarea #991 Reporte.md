@@ -22,20 +22,23 @@ La configuración implementada incluye múltiples instancias con mecanismos de d
 
 Se llevaron a cabo distintas pruebas para medir el desempeño de la infraestructura. A continuación, se presentan los resultados más relevantes.
 
-### 📷 Prueba 1: Análisis de tiempos de respuesta en nodo principal (Puerto 80)
+### Prueba 1: Análisis de tiempos de respuesta en nodo principal (Puerto 80)
 - Tiempo total registrado: **18.538 segundos**
 - Peticiones procesadas por segundo: **13.49 req/s**
 - Latencia promedio: **74.15 ms**
 - Latencia máxima: **3848 ms**
 
-### 📷 Prueba 2: Evaluación de tráfico en nodo secundario (Puerto 8080)
+### Prueba 2: Evaluación de tráfico en nodo secundario (Puerto 8080)
 - Tiempo total registrado: **7.794 segundos**
 - Peticiones procesadas por segundo: **32.07 req/s**
 - Latencia promedio: **249.424 ms**
 - Latencia máxima: **769 ms**
 
+![1](https://github.com/user-attachments/assets/3d891144-8c07-45d8-88be-59957dba96fa)
 
 
+
+![2](https://github.com/user-attachments/assets/0c8193f4-c2ac-4e48-ad94-5be462db83ca)
 
 ### 📷 Prueba 3: Distribución de carga en múltiples nodos con Siege
 
@@ -57,8 +60,6 @@ Los resultados obtenidos indican un rendimiento estable con tiempos de respuesta
 
 Este informe sirve como base para futuras optimizaciones y garantiza que la infraestructura cumple con los requisitos de disponibilidad y rendimiento.
 
----
+![3](https://github.com/user-attachments/assets/90d03277-28f6-4b8c-8c2b-8039d0cbec18)
 
-### Notas Finales
-
-Este reporte puede modificarse según sea necesario para incluir métricas adicionales o detalles más específicos de cada prueba. ¡Espero que te ayude en tu documentación en GitHub! 🚀📊
+🚀📊
