@@ -26,19 +26,13 @@ jobs:
           pip install pandas matplotlib seaborn
 
       - name: Run Python script
-        run: python ./Roadmap/python1.py 
+        run: python python.py 
 
       - name: Commit and Push changes
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
-          commit_message: "Update"
+          commit_message: "Update JSON and Graph"
           commit_user_name: "Kary Miranda [GitHub Actions]"
           commit_user_email: "kary0508miranda@gmail.com"
           commit_author: "karyllxx"
-
-      
-        
-
-
- 
-
+         
