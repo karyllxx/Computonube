@@ -1,3 +1,5 @@
+
+
 # Evaluación de Desempeño y Configuración de Infraestructura
 
 ## Introducción
@@ -32,7 +34,7 @@ Se llevaron a cabo distintas pruebas para medir el desempeño de la infraestruct
 - Latencia promedio: **249.424 ms**
 - Latencia máxima: **769 ms**
 
-![TPrueba](images/1.jpeg)
+
 
 
 ### 📷 Prueba 3: Distribución de carga en múltiples nodos con Siege
