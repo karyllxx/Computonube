@@ -4,10 +4,12 @@ on:
   push:
     branches:
       - main
-
 jobs:
   build:
     runs-on: ubuntu-latest
+
+  permissions:
+  contents: write
 
     steps:
       - name: Checkout repository
@@ -23,7 +25,20 @@ jobs:
           pip install pandas matplotlib seaborn
 
       - name: Run Python script
-        run: python python.py  
+        run: python python.py 
+
+      - name: Comit and Push changes
+        uses: stefanzweife/git-auto-commit-action@v5
+        with: 
+        commit_message: Update 
+        commit_user_name: Kary Miranda [GitHub Actions]
+        commit_user_email: kary0508miranda@gmail.com
+        commit_author: karyllxx
+        
+          
+
+      
+        
 
 
  
