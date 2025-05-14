@@ -10,6 +10,7 @@ Original file is located at
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
+import json
 
 # Cargar el dataset de Spotify y limpiar nombres de columnas
 df = pd.read_csv("spotifydataset.csv")
