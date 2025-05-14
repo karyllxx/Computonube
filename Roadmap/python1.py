@@ -2,6 +2,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import json
+import os
 
 # Cargar el dataset de Spotify y limpiar nombres de columnas
 df = pd.read_csv("spotifydataset.csv")
@@ -10,14 +11,12 @@ df.columns = df.columns.str.strip()  # Eliminar espacios en los nombres de colum
 # Seleccionar las 10 canciones más populares
 df_sorted = df.sort_values(by="track_popularity", ascending=False).head(10)
 
+# Crear la carpeta `docs/` si no existe
+os.makedirs("docs", exist_ok=True)
+
 # Guardar los datos en un archivo JSON
 json_data = df_sorted.to_json(orient="records", indent=4)
 
-# Crear la carpeta `docs/` si no existe
-import os
-os.makedirs("docs", exist_ok=True)
-
-# Guardar el JSON en la carpeta `docs/`
 with open("docs/datos_spotify.json", "w") as json_file:
     json_file.write(json_data)
 
@@ -36,8 +35,9 @@ plt.ylabel("Canción", fontsize=12, fontweight="bold")
 plt.title("🎶 Top 10 Canciones por Popularidad en Spotify 🎶", fontsize=14, fontweight="bold")
 plt.gca().invert_yaxis()  # Invertir el orden para mejor lectura
 
+# Guardar el gráfico correctamente en la carpeta `docs/`
+plt.savefig("docs/grafico_spotify.png", dpi=300, bbox_inches="tight")
 
 print("✅ Gráfico guardado correctamente en docs/grafico_spotify.png")
 
 plt.show()
-
