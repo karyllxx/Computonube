@@ -1,0 +1,33 @@
+name: Deploy Spotify Graph to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v3
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: pip install pandas matplotlib
+
+      - name: Run script
+        run: python script.py
+
+      - name: Commit and push generated graph
+        run: |
+          git config --global user.name "GitHub Action"
+          git config --global user.email "action@github.com"
+          git add docs/grafico_spotify.png
+          git commit -m "Actualizar gráfico de Spotify"
+          git push
